@@ -1,0 +1,560 @@
+Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+=============== RESTART: C:\Users\user\Desktop\python\turtle3.py ===============
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\python\turtle3.py", line 24, in <module>
+    f.end_fill("yellow")
+NameError: name 'f' is not defined
+
+=============== RESTART: C:\Users\user\Desktop\python\turtle3.py ===============
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\python\turtle3.py", line 27, in <module>
+    f.end_fill()
+NameError: name 'f' is not defined
+
+=============== RESTART: C:\Users\user\Desktop\python\turtle3.py ===============
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\python\turtle3.py", line 27, in <module>
+    f.end_fill()
+NameError: name 'f' is not defined
+a=123
+a=123...
+SyntaxError: invalid syntax
+a=123 ...
+SyntaxError: invalid syntax
+a=123..
+SyntaxError: invalid syntax
+7%3
+1
+100&8
+0
+100/8
+12.5
+100%8
+4
+print'"Hello World!"'
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+print('"Hello World!"')
+"Hello World!"
+multiline="""
+sksms gksrnrdjfmf
+TMrh tlveksms todrkrdl
+sjanskeh aksgdl emsmsep
+wjsqn duddjdlf QNsdlrh!
+한국말을 써도 출력이 잘 되나요?
+'''
+"""
+print(multiline="""
+그게 그렇게 안된다니까요'오늘 안에 어떻게 끝내
+이걸 어떻게 ㅎ!!!!
+"""
+      )
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    print(multiline="""
+TypeError: 'multiline' is an invalid keyword argument for print()
+TypeError: 'multiline' is an invalid keyword argument for print()
+SyntaxError: invalid syntax
+
+print("""아니
+          그게
+          안된다니까
+          """)
+아니
+          그게
+          안된다니까
+          
+print("""
+          하하
+          메롱
+          안녕
+          우리
+          진도
+          언제
+          나가
+          요?
+          """)
+
+          하하
+          메롱
+          안녕
+          우리
+          진도
+          언제
+          나가
+          요?
+          
+print("\"hello\"")
+"hello"
+print("life is too short \nyou need python")
+life is too short 
+you need python
+head="Python"
+tail="is fun!"
+head+tail
+'Pythonis fun!'
+print(head+tail)
+Pythonis fun!
+tail=" is fun"
+print(head+tail)
+Python is fun
+head+tail
+'Python is fun'
+head+3
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    head+3
+TypeError: can only concatenate str (not "int") to str
+head=3
+tail=2
+head+tail
+5
+head*tail
+6
+head/tail
+1.5
+head%tail
+1
+h="Woo Hyun"
+h*2
+'Woo HyunWoo Hyun'
+len(h)
+8
+a="Woo Hyun is hungry"
+a[0]
+'W'
+a[0:3]
+'Woo'
+"I eat %d apples." %3
+'I eat 3 apples.'
+"I eat %s apples." %5
+'I eat 5 apples.'
+number=5
+day="three"
+"I ate %d apples. so I was sick for %s days" %(number,day)
+'I ate 5 apples. so I was sick for three days'
+"I ate %d apples. so I was sick for %s days" %(3,5)
+'I ate 3 apples. so I was sick for 5 days'
+"I ate %d apples. so I was sick for %s days"%(3,"three")
+'I ate 3 apples. so I was sick for three days'
+"I ate %d apples. so I was sick for %s days"%(3,three)
+Traceback (most recent call last):
+  File "<pyshell#68>", line 1, in <module>
+    "I ate %d apples. so I was sick for %s days"%(3,three)
+NameError: name 'three' is not defined
+"I ate %d apples. so I was sick for %s days"%("tree",5)
+Traceback (most recent call last):
+  File "<pyshell#69>", line 1, in <module>
+    "I ate %d apples. so I was sick for %s days"%("tree",5)
+TypeError: %d format: a real number is required, not str
+"I ate %s apples. so I was sick for %s days"%(6.7)
+Traceback (most recent call last):
+  File "<pyshell#70>", line 1, in <module>
+    "I ate %s apples. so I was sick for %s days"%(6.7)
+TypeError: not enough arguments for format string
+"I ate %d apples. so I was sick for %s days"%("tree",7)
+Traceback (most recent call last):
+  File "<pyshell#71>", line 1, in <module>
+    "I ate %d apples. so I was sick for %s days"%("tree",7)
+TypeError: %d format: a real number is required, not str
+"I ate %s apples. so I was sick for %s days"%("three",7)
+'I ate three apples. so I was sick for 7 days'
+"%s,%s,%s%s%s,%s%s,%s,%s"%(6,5,4,3,2,1,6,7,"메롱")
+'6,5,432,16,7,메롱'
+print(len"시험 문제는 어떻게 내실 건가요?")
+SyntaxError: invalid syntax
+print(len(시험 문제는 어떻게 내실 건가요?))
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+print(len(dnfkjsdnkfj))
+Traceback (most recent call last):
+  File "<pyshell#76>", line 1, in <module>
+    print(len(dnfkjsdnkfj))
+NameError: name 'dnfkjsdnkfj' is not defined
+len(djkfnakjsdnfkn)
+Traceback (most recent call last):
+  File "<pyshell#77>", line 1, in <module>
+    len(djkfnakjsdnfkn)
+NameError: name 'djkfnakjsdnfkn' is not defined
+a="aksjdfnkajsdnfkj"
+len(a)
+16
+b="202312223daysbeforechristmas"
+b[0:7]
+'2023122'
+b[0:8]
+'20231222'
+b[9:]
+'daysbeforechristmas'
+b[8:]
+'3daysbeforechristmas'
+a=100
+"I eat %d apples"
+'I eat %d apples'
+"I eat %d apples"%a
+'I eat 100 apples'
+"i eat {0} apples".format{3}
+SyntaxError: invalid syntax
+"i eat {0} apples".format(3)
+'i eat 3 apples'
+"i eat {0}, {2} apples."format(5.6)
+SyntaxError: invalid syntax
+"i eat {0}, {2} apples."format(5,6)
+SyntaxError: invalid syntax
+"i eat {0}, {2} apples.".format(5,6)
+Traceback (most recent call last):
+  File "<pyshell#92>", line 1, in <module>
+    "i eat {0}, {2} apples.".format(5,6)
+IndexError: Replacement index 2 out of range for positional args tuple
+"i eat {0}, {1} apples."format(5,6)
+SyntaxError: invalid syntax
+"i eat {0}, {1} apples.".format(5,6)
+'i eat 5, 6 apples.'
+"I eat {1}, {0} apples.".format(6,5)
+'I eat 5, 6 apples.'
+a="hobby"
+a.count('b')
+2
+a.count('a')
+0
+",".join('abcd')
+'a,b,c,d'
+a.upper()
+'HOBBY'
+","join(a)
+SyntaxError: invalid syntax
+",".join(a)
+'h,o,b,b,y'
+"b".join(a)
+'hbobbbbby'
+"1".join(a)'
+SyntaxError: unterminated string literal (detected at line 1)
+"1".join(a)
+'h1o1b1b1y'
+b="I love an apple. Butjnkasjdnfkljanerilulkshrcn alekrhicnkaacrhtcitcrugtiaevr"
+b.count('h')
+3
+b.count('i')
+4
+b.count('a')
+8
+3
+3
+b.replace("I","you")
+'you love an apple. Butjnkasjdnfkljanerilulkshrcn alekrhicnkaacrhtcitcrugtiaevr'
+b.split()
+['I', 'love', 'an', 'apple.', 'Butjnkasjdnfkljanerilulkshrcn', 'alekrhicnkaacrhtcitcrugtiaevr']
+b="g adf sfgh aerg sdfsd fg aerg awef adfg sdg awe faegr "
+b.split()
+['g', 'adf', 'sfgh', 'aerg', 'sdfsd', 'fg', 'aerg', 'awef', 'adfg', 'sdg', 'awe', 'faegr']
+a=" hi "
+a.strip()
+'hi'
+b.strip('f')
+'g adf sfgh aerg sdfsd fg aerg awef adfg sdg awe faegr '
+b.split('f')
+['g ad', ' s', 'gh aerg sd', 'sd ', 'g aerg awe', ' ad', 'g sdg awe ', 'aegr ']
+b.rstrip()
+'g adf sfgh aerg sdfsd fg aerg awef adfg sdg awe faegr'
+a=" hghghghgh"
+a.strip()
+'hghghghgh'
+b.strip()
+'g adf sfgh aerg sdfsd fg aerg awef adfg sdg awe faegr'
+if[]:
+print("참")
+SyntaxError: expected an indented block after 'if' statement on line 1
+if []:
+    print("참")
+else:
+    print("거짓")
+
+    
+거짓
+if[]:
+    print("참")
+else:
+    print("거짓")
+
+    
+거짓
+if[]:
+print("참")
+SyntaxError: expected an indented block after 'if' statement on line 1
+if[2]:
+    print("참")
+else
+SyntaxError: expected ':'
+
+
+if[2]:
+    print("참")
+else:
+    print("거짓")
+
+    
+참
+
+
+a="hobby"
+a.rfind('b')
+3
+a.rfind('y')
+4
+a.rfind('h')
+0
+a.find('b')
+2
+a.find('h')
+0
+b="sjdhfjkahdkjf"
+b.find('a')
+7
+b.rfind('a')
+7
+b.find('f')
+4
+b.rfind('f')
+12
+
+
+hello
+Traceback (most recent call last):
+  File "<pyshell#162>", line 1, in <module>
+    hello
+NameError: name 'hello' is not defined. Did you mean: 'help'?
+num=100
+str01="python"
+score=[100,95,78,60,99]
+
+2>1
+True
+1==3
+False
+type(a)
+<class 'str'>
+a=True
+type(a)
+<class 'bool'>
+1?=1
+SyntaxError: invalid syntax
+1 !=1
+False
+1!=1
+False
+bool(0)
+False
+bool(1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#176>", line 1, in <module>
+    bool(1,2,3)
+TypeError: bool expected at most 1 argument, got 3
+bool([1,2,3])
+True
+bool(None)
+False
+[1,2,[5,6,7]]
+[1, 2, [5, 6, 7]]
+
+num=3.14159265358979
+print(num)
+3.14159265358979
+if01=43434
+print(if01)
+43434
+
+name=input()
+카이로스
+print(name)
+카이로스
+name=input()
+djdjdjdj
+print(name)
+djdjdjdj
+name=input()
+"""sjdfnkjn
+print(name)
+"""sjdfnkjn
+name=input(dfdf)
+Traceback (most recent call last):
+  File "<pyshell#192>", line 1, in <module>
+    name=input(dfdf)
+NameError: name 'dfdf' is not defined
+name=input("dskfnaksdjfn")
+dskfnaksdjfn
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+입력하신 문자는:<built-in function input>
+sddf
+Traceback (most recent call last):
+  File "<pyshell#194>", line 1, in <module>
+    sddf
+NameError: name 'sddf' is not defined
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+입력하세요:우현
+입력하신 문자는:우현
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+입력하세요:sisi
+입력하신 문자는:sisi
+오늘 요일은?:월요일
+월요일
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+입력하세요:누름누름
+입력하신 문자는:누름누름
+오늘 요일은?:금요일
+오늘하루도 행복한 금요일
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+입력하세요:케케
+입력하신 문자는:케케
+오늘 요일은?:크리스마스
+오늘 하루도 행복한 크리스마스
+
+a=int(input('입력:'))
+입력:8
+type(a)
+<class 'int'>
+a+7
+15
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:권우현
+권우현
+점수:90
+90
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:권우현
+점수:90
+90
+권우현
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:메롱
+점수:999
+메롱
+999
+type(3.14)
+<class 'float'>
+type(2)
+<class 'int'>
+type(a)
+Traceback (most recent call last):
+  File "<pyshell#201>", line 1, in <module>
+    type(a)
+NameError: name 'a' is not defined
+type("a")
+<class 'str'>
+a=155
+type(a)
+<class 'int'>
+int(input(2))
+2
+Traceback (most recent call last):
+  File "<pyshell#205>", line 1, in <module>
+    int(input(2))
+ValueError: invalid literal for int() with base 10: ''
+
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:권우현
+점수:499
+권우현
+499
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:kjsdnfk
+점수:900
+kjsdnfk
+900
+900.0
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:rnjsdngus
+점수:899.53
+rnjsdngus
+899.53
+Traceback (most recent call last):
+  File "C:/Users/user/Desktop/input.py", line 6, in <module>
+    print(int(name1))
+ValueError: invalid literal for int() with base 10: '899.53'
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:fgfgh
+점수:89.2
+fgfgh
+89.2
+Traceback (most recent call last):
+  File "C:/Users/user/Desktop/input.py", line 6, in <module>
+    print(int(name1))
+ValueError: invalid literal for int() with base 10: '89.2'
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:a
+점수:99.9
+a
+99.9
+Traceback (most recent call last):
+  File "C:/Users/user/Desktop/input.py", line 6, in <module>
+    name1 = int(name1)
+ValueError: invalid literal for int() with base 10: '99.9'
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:aa
+점수:99.9
+aa
+99.9
+99
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:aa
+점수:87.5
+aa
+87.5
+87
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:권우현
+점수:97.4
+권우현
+97.4
+97점 입니다
+
+========================= RESTART: C:/Users/user/Desktop/input.py =========================
+이름:ㅁㄴ얼
+점수:234.1
+ㅁㄴ얼
+234.1
+234점입니다
+
+range(5)
+range(0, 5)
+1 and 2
+2
+1and2
+SyntaxError: invalid decimal literal
+A=True
+B=False
+A and B
+False
+A nor B
+SyntaxError: invalid syntax
+A xor B
+SyntaxError: invalid syntax
+A XOR B
+SyntaxError: invalid syntax
+A xor B
+SyntaxError: invalid syntax
+A not B
+SyntaxError: invalid syntax
+A or B
+True
+1 xor 2
+SyntaxError: invalid syntax
+not A
+False
+not B
+True
+
